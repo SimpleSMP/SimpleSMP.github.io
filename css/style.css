@@ -12,6 +12,7 @@ a{
 a:hover{
     text-decoration: none;
     color: #acacac;
+    transform: translateY(-10px);
 }
 
 a:checked{
@@ -66,6 +67,15 @@ li.nav-link{
     margin-left: 30px;
     font-size: 17px;
     font-weight: 300;
+    
+}
+
+li.nav-link:hover{
+    transform: translateY(-5px);
+}
+
+li.nav-link:checked{
+    color: #2668db;
 }
 
 .content{
