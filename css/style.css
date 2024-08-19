@@ -159,3 +159,87 @@ button:hover{
         max-width: 400px;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .logo{
+        font-size: 17px;
+    }
+    li.nav-link{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 24px;
+    }
+    .main p{
+        font-size: 14px;
+    }
+    button{
+        font-size: 11px;
+    }
+    .image-wrapper img{
+        max-width: 356px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .logo{
+        font-size: 15px;
+    }
+    li.nav-link{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+    .main p{
+        font-size: 12px;
+    }
+    button{
+        font-size: 10px;
+    }
+    .image-wrapper img{
+        max-width: 336px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .logo{
+        font-size: 15px;
+    }
+    li.nav-link{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+    .main p{
+        font-size: 12px;
+    }
+    button{
+        font-size: 10px;
+    }
+    .image-wrapper img{
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo{
+        font-size: 11.5px;
+    }
+    li.nav-link{
+        font-size: 11.3px;
+    }
+    .main h2{
+        font-size: 17.5px;
+    }
+    .main p{
+        font-size: 11.5px;
+    }
+    button{
+        font-size: 10px;
+    }
+    .image-wrapper img{
+        max-width: 300px;
+    }
+}
